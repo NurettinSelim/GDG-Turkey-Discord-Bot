@@ -42,7 +42,7 @@ async def on_message(message):
                 await message.delete()
                 return
 
-            confirm_message_text = f"{message.author.mention} Mesajınla eşleşen '{similar_words[0]}' bulundu.\nOnaylıyorsan 15 saniye içerisinde 👍 tepkisini verebilirsin"
+            confirm_message_text = f"{message.author.mention} Mesajınla eşleşen **{similar_words[0]}** bulundu.\nOnaylıyorsan 15 saniye içerisinde 👍 tepkisini verebilirsin"
             confirm_message = await channel.send(confirm_message_text, delete_after=15)
 
             await confirm_message.add_reaction("\N{THUMBS UP SIGN}")
