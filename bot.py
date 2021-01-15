@@ -66,7 +66,7 @@ async def on_message(message):
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send(f"🏓 Pong with {str(round(bot.latency, 2))}")
+    await ctx.send(f"🏓 Pong with {str(round(bot.latency, 5))}")
 
 
 bot.run(token)
