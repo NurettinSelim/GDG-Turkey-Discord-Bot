@@ -1,0 +1,19 @@
+{
+  "name": "gdg-turkey-bot",
+  "version": "1.0.0",
+  "description": "Created for GDG Turkey Discord server",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NurettinSelim",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/string-similarity": "^4.0.0"
+  }
+}
